@@ -2,7 +2,16 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+
+  /* Night sky gradient */
+  background: radial-gradient(circle at top, #0b1d3a 0%, #050b1a 40%, #000000 100%);
+
+  /* Star layers */
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+  background-size: 3px 3px, 4px 4px;
+  background-position: 0 0, 1.5px 1.5px;
 }
 
 #canvas {
@@ -31,7 +40,7 @@ body, html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0,0,0,0.95);
   color: white;
   display: flex;
   align-items: center;
