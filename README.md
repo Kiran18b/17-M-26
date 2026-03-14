@@ -282,5 +282,4 @@ This project is open source. Feel free to use, modify, and distribute.
 - Mobile responsiveness best practices
 
 ---
-
-**Happy Birthday Anusha! 🎂✨**
+ https://kiran18b.github.io/17-M-26/🎂✨**
